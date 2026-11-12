@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "src/styles.css"
+        ],
+        "createdAt": "2026-11-08T03:57:24.712Z",
+        "reason": "Claude: .tabs button sets border-radius: 0; the 3px bottom border is a standard underline tab indicator, not a rounded card"
+      }
+    ]
+  }
+}
